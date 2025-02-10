@@ -1,8 +1,5 @@
 # 🚀 Terraform AWS Infrastructure as Code (IAC)
 
-```
-📌 Repository: terraform-iac-aws
-```
 ## 📸 Architecture Diagram
 
 [![Terraform AWS Architecture](./Architecture/Architecture.png)](https://github.com/Debjyoti2004/terraform-iac-aws)
