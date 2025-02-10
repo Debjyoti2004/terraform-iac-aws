@@ -93,7 +93,7 @@ terraform destroy -auto-approve
 
 ## 📜 Notes
 
-🟢 Terraform State Management: Ensure the Terraform state is stored securely (e.g., in an S3 backend for remote collaboration).
+🟢 Terraform State Management: Ensure the Terraform state is stored securely (e.g., in an S3 backend for remote collaboration).     
 🟢 Security Best Practices: Never commit secrets, access keys, or private SSH keys to the repository.
 
 
