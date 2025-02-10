@@ -54,11 +54,11 @@ Before using this repository, ensure you have the following installed:
 You need to generate a **public-private key pair** for SSH access. Run the following command:
 
 ```
-ssh-keygen -t rsa -b 4096 -f ~/.ssh/terrakey 
+ssh-keygen 
 ```
-```
+
 🔹 If you want to use a different key name, update `main.tf` by replacing `terrakey` with your custom key name.
-```
+
 
 ---
 
@@ -92,21 +92,21 @@ terraform destroy -auto-approve
 ---
 
 ## 📜 Notes
-```
+
 🟢 Terraform State Management: Ensure the Terraform state is stored securely (e.g., in an S3 backend for remote collaboration).
 🟢 Security Best Practices: Never commit secrets, access keys, or private SSH keys to the repository.
-```
+
 
 ---
 
 ## 📌 Contributing
-```
+
 📢 Contributions are welcome! Please follow the best practices and submit a pull request.
-```
+
 
 ---
 
 ## 📄 License
-```
+
 📜 This project is MIT Licensed. Feel free to use and modify it.
-```
+
